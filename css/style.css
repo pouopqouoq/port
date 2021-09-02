@@ -223,3 +223,222 @@ justify-content: space-around;
 .pf_gosite a:hover:before {
     width: 100%;
 }
+/*700~1297 화면******************/
+@media screen and (min-width: 700px) and (max-width: 1279px) {
+/*    *************앞표지**********/
+    .section_home h1 {
+        font-size: 80px;
+    }
+/*    공통**************/
+    dummy {
+        width: 100%; height: 60px;
+    }
+/*    s1 프로파일*/
+    .pr_container {
+        width: 90%; flex-direction: column; margin-top: 30px;
+    }
+    .pr_profile>div {
+        float:left;
+    }
+    .pr_profile>ul {
+        float: left;
+        margin-left: 20px;
+    }
+    .pr_profile>ul>li {
+        padding-left: 20px;
+    }
+    .ct_txt>ul>li>img {
+        width: 40px; height: 40px;
+    }
+    .ct_inbox {
+    padding: 0;
+    }
+    .right_box>div {
+        margin-top: 20px;
+    }
+/*    *********s2 포트폴리오*/
+    .slide{
+        flex-direction: column;
+        margin: 0 67px;
+    }
+    .slide>.image {
+        width: 82%;
+        position: relative;
+            top: 5vh;
+    }
+    .slide .pf_txt_container {
+        position: relative;
+        top: 10vh; width: 80%;
+    }
+    .pf_gosite {
+        margin-top: 30px;
+    }
+    .left_arrow, .right_arrow {
+        width: 30px;
+    }
+}
+
+/*<<<<<<<<<<<<<<<<<<<< 모바일 699px이하 >>>>>>>>>>>>>>>>>>>>>*/
+@media screen and (max-width: 699px){
+    #navTop {
+        width: 100%; height: 50px;
+    }
+    #navTop_box {
+        width: 90%; height: 50%;
+    }
+    #navTop_box #logo>div {
+        width: 50px; line-height: 50px;
+    }
+    #navTop_box #logo>div>img {
+        width: 90%;
+    }
+    #navTop_box #logo>span {display: none;}
+    #navTop_box #topMenu li {
+        padding-left: 10px; line-height: 50px;
+    }
+    #navTop_box #topMenu li a {
+        font-size: 14px;
+    }
+    #navTop_box #topMenu li>a.active {
+        border-bottom: 0; padding: 4px;
+        background:#b3d0bc;
+        color: #fff; border-radius: 5px;
+    }
+    /********** s0 앞표지 ************/
+    .section_home {
+        width: 85%; height: 95vh;
+        margin: auto;
+    }
+    .section_home h1 {
+        font-size: 40px;
+    }
+    /*********** 공통 ****************/
+    .dummy {
+        width: 100%; height: 50px;
+    }
+    
+    /*********** s1 프로파일 **********/
+    .s1 {
+       background-color: rgb(238, 238, 238); 
+    }
+    .s1>h2 {
+        height: 50px;
+        line-height: 50px;
+        font-size: 23px;
+    }
+    .pr_container {
+        width: 100%;
+        margin-top:15px;
+        flex-direction: column;
+    }
+    .pr_profile {
+        position: relative;
+        padding:0;
+        width: 100%;
+    }
+ 
+    .pr_container .pr_profile div {
+        width: 40%;
+        margin-left: 5%;
+        float: left;
+    }
+    .pr_container .pr_profile div>img {
+        width: 90%;
+        margin: auto;
+    }
+    .pr_profile>ul {
+        float: left;
+        width: 50%;
+        border: none;
+        position: absolute;
+        right: 10px;
+        bottom: 5px;
+    }
+    .pr_profile>ul>li {
+        font-size: 13px;
+        padding-left:0; line-height: 1.5;
+    }
+    
+    .pr_profile>ul>li:nth-child(1) {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 3;
+    }
+    .pr_date, .pr_txt>ul {
+        display: none;
+    }
+    .pr_title {
+        padding-left: 15px;
+        margin-left: 15px;
+        width: 30%;
+        font-size: 14px;
+        float: none;
+    }
+    .pr_txt {
+        width: 50%;
+        font-size: 12px;
+        float: none;
+        font-weight: normal;
+        padding-left: 40px;
+    }
+    .edu_txt>div {
+        font-weight: normal;
+    }
+    .cer_box {
+        margin-top: 10px;
+    }
+    .ct_box {
+        width: 92%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .ct_title {
+        font-size: 14px;
+    }
+    .ct_txt {
+        flex-direction: column;  
+        margin-top: 10px;
+    }
+    .ct_txt>ul {
+        width: 74%;
+        margin: auto;
+        line-height: 2;
+    }
+    .ct_txt>ul>li {
+        float:left;
+        font-size: 14px;
+        text-align: center;
+        padding-left: 10px;
+    }    
+    .ct_txt>ul>li>img {
+        width: 20px;
+        height: 20px;
+    }
+    .ct_inbox {
+        padding: 15px;
+    }
+    
+    
+    /*********** s2 포트폴리오 ********/
+    .slide {
+        flex-direction: column;
+        margin: 0px 67px;
+    }
+    .slide>.image {
+        width: 82%;
+        position: relative;
+        top: 5vh;
+    }
+    .slide .pf_txt_container {
+        position: relative;
+        top: 10vh;
+        width: 80%;
+    }
+    .pf_gosite {
+        margin-top: 30px;
+    }
+    .left_arrow, .right_arrow {
+        width: 30px;
+    }
+ 
+}
