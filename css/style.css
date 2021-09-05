@@ -333,7 +333,7 @@ justify-content: space-around;
     .s1 {
        background-color: rgb(238, 238, 238); 
     }
-    .s1>h2 {
+    .s1>h1 {
         height: 50px;
         line-height: 50px;
         font-size: 23px;
