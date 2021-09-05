@@ -1,3 +1,11 @@
+@font-face {
+        font-family: 'NanumSquare' ;
+        src: local('font/NanumSquare'),
+            url('../font/NanumSquareR.ttf'),
+            url('../font/NanumSquareR.eot'),
+            url('../font/NanumSquareR.woff');
+    }
+        body {font-family: 'NanumSquare'};
 html {
     scroll-behavior: smooth;
 }
@@ -9,7 +17,7 @@ html {
     position: fixed; top: 0;
     width: 100%; height: 70px;
     z-index: 1; background: #fff;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid pink;
 }
 #navTop_box {
     width: 80%; height: 70px; margin: auto;
@@ -40,7 +48,7 @@ html {
     color: #ccc;
 }
 #navTop_box #topMenu li>a.active {
-    color: #56996b; border-bottom: 3px solid #56996b;
+    color: pink; border-bottom: 3px solid pink;
     font-weight: bold; padding-bottom: 4px;
 }
 
@@ -49,7 +57,7 @@ html {
 }
 /*s0 앞표지 calc시 부호 앞뒤를 붙이면 계산을 못한다.*/
 .section_home {
-    background: pink;
+    background: linear-gradient(to top, pink, lavender,skyblue);
     width: calc(100% - 140px);
     height: calc(100% - 70px);
     margin: auto;
@@ -97,22 +105,25 @@ html {
 }
 .pr_date {
     float: left;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-left: 10px;
 }
 .pr_txt {
     line-height: 1.5;
     float: left;
-    _padding-top: 20px;
-    padding-left: 10px;
+    padding-left: 30px;
+}
+.cer_txt {
+    margin-top: 5px;
 }
 .edu_txt>div {
     font-weight: bold;
 }
 .ct_inbox {
     padding: 20px;
-    background: #eee;
-    border: 5px double #ccc;
+    background: #e7f3ff;
+    border: 5px dashed pink;
+    border-radius: 15px;
 }
 .ct_title {
     text-align: center;
@@ -302,7 +313,7 @@ justify-content: space-around;
     }
     #navTop_box #topMenu li>a.active {
         border-bottom: 0; padding: 4px;
-        background:#b3d0bc;
+        background:#9bceff;
         color: #fff; border-radius: 5px;
     }
     /********** s0 앞표지 ************/
